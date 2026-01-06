@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.glass{
+    @apply bg-white/10 backdrop-blur-2xl shadow-2xl 
+}
