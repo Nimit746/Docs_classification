@@ -790,9 +790,9 @@ If you need help with DocClassify, here are your options:
   - Nimit: guptanimit062@gmail.com
   - Sanjeevni: sanjeevnidhir05@gmail.com
 
-- 🐛 **Bug Reports**: Open an issue on [GitHub Issues](https://github.com/yourusername/docclassify/issues)
+- 🐛 **Bug Reports**: Open an issue on [GitHub Issues](https://github.com/Nimit746/Docs_classification/issues)
 
-- 💡 **Feature Requests**: Submit your ideas on [GitHub Discussions](https://github.com/yourusername/docclassify/discussions)
+- 💡 **Feature Requests**: Submit your ideas on [GitHub Discussions](https://github.com/Nimit746/Docs_classification/discussions)
 
 - 📖 **Documentation**: Check out our comprehensive guides in the `/docs` folder
 
@@ -830,13 +830,13 @@ Join our growing community of developers and contributors:
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/docclassify?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/docclassify?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/yourusername/docclassify?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Nimit746/Docs_classification?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Nimit746/Docs_classification?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/Nimit746/Docs_classification?style=social)
 
-![GitHub issues](https://img.shields.io/github/issues/yourusername/docclassify)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/docclassify)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/docclassify)
+![GitHub issues](https://img.shields.io/github/issues/Nimit746/Docs_classification)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Nimit746/Docs_classification)
+![GitHub last commit](https://img.shields.io/github/last-commit/Nimit746/Docs_classification)
 
 </div>
 
