@@ -29,3 +29,8 @@ node_modules
 __pycache__
 .venv
 .vscode
+dataset
+processed_data
+eda_summary.csv
+server/training/*.png
+server/training/*.csv
