@@ -1,5 +1,40 @@
 @import "tailwindcss";
 
-.glass{
-    @apply bg-white/10 backdrop-blur-2xl shadow-2xl 
+@theme {
+  --color-primary: #4f46e5; /* Indigo 600 */
+  --color-primary-hover: #4338ca; /* Indigo 700 */
+  --color-primary-light: #e0e7ff; /* Indigo 100 */
+  
+  --color-background: #f8fafc; /* Slate 50 */
+  --color-surface: #ffffff;
+  
+  --color-text-main: #1e293b; /* Slate 800 */
+  --color-text-muted: #64748b; /* Slate 500 */
+  
+  --color-success: #10b981; /* Emerald 500 */
+  --color-error: #ef4444; /* Red 500 */
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glass {
+    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-xl;
+}
+
+.btn-primary {
+  @apply px-6 py-2.5 bg-[var(--color-primary)] text-white rounded-lg font-medium 
+  transition-all duration-200 hover:bg-[var(--color-primary-hover)] 
+  focus:ring-2 focus:ring-[var(--color-primary)] focus:ring-offset-2 shadow-sm hover:shadow-md;
+}
+
+.card {
+  @apply bg-[var(--color-surface)] rounded-xl shadow-sm border border-slate-100 p-6;
 }

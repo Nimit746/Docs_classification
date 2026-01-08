@@ -12,6 +12,8 @@ import docx
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import numpy as np
+from dotenv import load_dotenv
+load_dotenv()
 
 # Download required NLTK data
 try:
@@ -24,10 +26,16 @@ except:
 # Initialize FastAPI instance
 app = FastAPI(title="Document Classification API")
 
+_cors_origins_raw = os.getenv("CORS_ORIGINS", "*").strip()
+if not _cors_origins_raw or _cors_origins_raw == "*":
+    CORS_ORIGINS = ["*"]
+else:
+    CORS_ORIGINS = [origin.strip() for origin in _cors_origins_raw.split(",") if origin.strip()]
+
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=CORS_ORIGINS,
     allow_methods=["*"],
     allow_headers=["*"],
 )
